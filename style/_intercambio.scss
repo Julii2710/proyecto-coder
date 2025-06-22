@@ -1,0 +1,55 @@
+.Intercambio-header {
+  background-image: url(../img/intercambio.webp);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+.servicios-main {
+  padding: 40px 20px;
+}
+
+.servicios-publicaciones {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+  .servicio-card {
+    background-color: $color-white-opacity-85;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px $color-black-opacity-5;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px $color-black-opacity-2;
+    }
+
+    img {
+      width: 80%;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      margin: 10px 0 5px;
+      color: $color-text-green;
+      font-family: $font-minecraft;
+    }
+
+    p {
+      color: $color-text-grey;
+      font-size: 0.95rem;
+      font-family: $font-minecraft-enchantment;
+    }
+  }
+}

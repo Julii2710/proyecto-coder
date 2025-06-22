@@ -1,0 +1,186 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.index-header {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.header-inferior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.2rem;
+  height: 100vh;
+}
+.header-inferior .texto-sobre-fondo {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+}
+.header-inferior .texto-sobre-fondo h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Minecraft", sans-serif;
+  text-align: center;
+}
+.header-inferior .texto-sobre-fondo .TextoImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.header-inferior .texto-sobre-fondo .TextoImg p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.header-inferior .texto-sobre-fondo .TextoImg .ImgDerecha {
+  width: 150px;
+}
+.header-inferior .texto-sobre-fondo p {
+  font-size: 1.5rem;
+}
+
+.Footer-Index {
+  background-color: #57e3b9;
+}
+
+.oscurecer-fondo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.Body-Compras {
+  background-color: rgb(254, 226, 189);
+}
+
+.Compras-header {
+  background-image: url(../img/shop.avif);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+.Compras-inferior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.2rem;
+  height: 65vh;
+}
+.Compras-inferior h1 {
+  font-family: "Minecraft", sans-serif;
+  font-size: 7rem;
+  color: rgb(235, 235, 235);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.grid-publicaciones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px;
+  justify-items: center;
+}
+.grid-publicaciones .publicacion {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.grid-publicaciones .publicacion:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.grid-publicaciones .publicacion img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.grid-publicaciones .publicacion h3 {
+  margin: 10px 0 5px;
+  color: #333;
+  font-family: "Minecraft", sans-serif;
+}
+.grid-publicaciones .publicacion p {
+  color: #666;
+  font-size: 0.6rem;
+  font-family: "minecraft enchantment Regular";
+}
+.grid-publicaciones .publicacion h4,
+.grid-publicaciones .publicacion strike {
+  margin: 10px 0 5px;
+  color: #095800;
+  font-family: "Minecraft", sans-serif;
+}
+
+.Intercambio-header {
+  background-image: url(../img/intercambio.webp);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+.servicios-main {
+  padding: 40px 20px;
+}
+
+.servicios-publicaciones {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.servicios-publicaciones .servicio-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.servicios-publicaciones .servicio-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.servicios-publicaciones .servicio-card img {
+  width: 80%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.servicios-publicaciones .servicio-card h3 {
+  margin: 10px 0 5px;
+  color: #095800;
+  font-family: "Minecraft", sans-serif;
+}
+.servicios-publicaciones .servicio-card p {
+  color: #666;
+  font-size: 0.95rem;
+  font-family: "minecraft enchantment Regular";
+}
+
+/*# sourceMappingURL=style.css.map */
